@@ -11,7 +11,7 @@ export const Layout = ({ children }: Props) => {
   return (
     <div className={`flex min-h-screen flex-col ${oswald.variable} font-sans`}>
       <Meta />
-      <main className="container mx-auto flex flex-1 flex-col px-8">
+      <main className="">
         <NavBar />
         {children}
       </main>

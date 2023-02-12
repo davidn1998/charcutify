@@ -26,7 +26,7 @@ export const NavLink = ({ label, path }: Props) => {
   const router = useRouter();
 
   return (
-    <li className=" flex flex-1 justify-center transition-all hover:cursor-pointer">
+    <li className="flex flex-1 justify-center transition-all hover:cursor-pointer">
       <Link href={path} scroll={false} className="group relative">
         {label}
         <span
