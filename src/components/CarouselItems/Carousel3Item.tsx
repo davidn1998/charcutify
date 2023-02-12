@@ -77,7 +77,7 @@ export const CarouselItem3 = ({
         alt="board"
         width={imgW}
         height={imgH}
-        className="my-24"
+        className="my-14"
       />
       <p className={`text-base font-light ${textStyle({ pos: pos })}`}>
         {desc}

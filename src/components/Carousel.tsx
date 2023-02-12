@@ -70,7 +70,7 @@ export const Carousel = ({
       >
         <MdKeyboardArrowLeft />
       </button>
-      <div className="relative mx-auto flex h-[600px] w-[75vw] justify-center">
+      <div className="relative mx-auto flex h-[400px] w-[75vw] justify-center md:h-[600px]">
         {carouselItems.map((item, i) => {
           let carousel = <></>;
           switch (displayNumber) {
