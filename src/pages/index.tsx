@@ -9,7 +9,7 @@ const index = () => {
       <Meta title="charcutify" />
       <section
         id="hero"
-        className="flex flex-col items-center justify-center md:mt-40"
+        className="flex flex-col items-center justify-center bg-contain bg-no-repeat md:bg-[url('/bg_text.png')] md:pt-40"
       >
         <div className="md:hidden">
           <Carousel carouselItems={boards} displayNumber={1} offsetInit={0} />
