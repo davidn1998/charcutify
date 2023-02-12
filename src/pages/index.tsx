@@ -1,5 +1,6 @@
 import boards from "@/boards.json";
 import { Carousel } from "@/components/Carousel";
+import { FeaturedBar } from "@/components/FeaturedBar";
 import { Meta } from "@/components/Meta";
 import Image from "next/image";
 
@@ -37,6 +38,11 @@ const index = () => {
             className="lg:w-2/3 xl:w-1/2"
           />
         </div>
+      </section>
+      <section
+        id="main-carousel"
+        className="flex flex-col items-center justify-center"
+      >
         {boards.length >= 3 && (
           <div className={`${boards.length >= 5 && "md:hidden"}`}>
             <Carousel carouselItems={boards} displayNumber={1} offsetInit={0} />
@@ -54,6 +60,8 @@ const index = () => {
             <Carousel carouselItems={boards} displayNumber={5} offsetInit={2} />
           </div>
         )}
+      </section>
+      <section className="flex flex-col items-center justify-center">
         <div className="mx-auto mt-8 flex flex-col md:mx-0 md:flex-row">
           <button className="mr-8 mb-4 w-full rounded-bl-lg rounded-tr-lg border-2 border-primary bg-primary px-16 py-4 text-center text-[18px] font-bold tracking-[0.3em] transition-all duration-300 hover:border-white hover:bg-neutral-700 hover:text-primary md:mb-0 md:w-1/2">
             CUSTOMISE
@@ -62,15 +70,10 @@ const index = () => {
             PRE-MADE
           </button>
         </div>
-        <Image
-          src="/featured_on.png"
-          alt="feautured_on"
-          width={1065}
-          height={82}
-          className="my-24"
-        />
       </section>
-      <main className="container mx-auto flex flex-1 flex-col px-8"></main>
+      <main className="container mx-auto flex flex-1 flex-col px-8">
+        <FeaturedBar />
+      </main>
     </div>
   );
 };
