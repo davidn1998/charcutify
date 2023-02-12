@@ -10,7 +10,7 @@ type NavLink = {
 export const NavBar = ({}) => {
   const navLinksLeft: NavLink[] = [
     { label: "customise", path: "/customise" },
-    { label: "pre-made", path: "/boards" },
+    { label: "premade", path: "/boards" },
   ];
   const navLinksRight: NavLink[] = [
     { label: "about", path: "/about" },

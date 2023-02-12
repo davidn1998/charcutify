@@ -26,7 +26,7 @@ const index = () => {
                 CUSTOMISE
               </button>
               <button className="w-full rounded-bl-lg rounded-tr-lg border-2 px-16 py-4 text-center text-[18px] font-bold tracking-[0.3em] transition-all duration-300 hover:bg-neutral-700 hover:text-primary md:w-1/3 md:px-4 xl:w-1/2">
-                PRE-MADE
+                PREMADE
               </button>
             </div>
           </div>
@@ -67,7 +67,7 @@ const index = () => {
             CUSTOMISE
           </button>
           <button className="w-full rounded-bl-lg rounded-tr-lg border-2 px-16 py-4 text-center text-[18px] font-bold tracking-[0.3em] transition-all duration-300 hover:bg-neutral-700 hover:text-primary md:w-1/2">
-            PRE-MADE
+            PREMADE
           </button>
         </div>
       </section>
