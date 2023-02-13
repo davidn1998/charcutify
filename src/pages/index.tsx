@@ -1,11 +1,11 @@
-import boards from "@/boards.json";
 import { Carousel } from "@/components/Carousel";
 import { CTAButtons } from "@/components/CTAButtons";
 import { FeaturedBar } from "@/components/FeaturedBar";
 import { Footer } from "@/components/Footer";
 import { InstructionStep } from "@/components/InstructionStep";
 import { Meta } from "@/components/Meta";
-import instructions from "@/instructions.json";
+import boards from "@/utility/carouselBoards.json";
+import instructions from "@/utility/instructions.json";
 import Image from "next/image";
 
 const index = () => {
