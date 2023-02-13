@@ -25,6 +25,7 @@ export const NavBar = ({}) => {
         ))}
         <Link href="/" className="mx-8">
           <Image
+            priority
             src="/logos/logo-no-background.png"
             alt="logo"
             width={216}

@@ -1,6 +1,8 @@
 import boards from "@/boards.json";
 import { Carousel } from "@/components/Carousel";
+import { CTAButtons } from "@/components/CTAButtons";
 import { FeaturedBar } from "@/components/FeaturedBar";
+import { Footer } from "@/components/Footer";
 import { InstructionStep } from "@/components/InstructionStep";
 import { Meta } from "@/components/Meta";
 import instructions from "@/instructions.json";
@@ -8,7 +10,7 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="flex flex-1 flex-col items-center">
       <Meta title="Charcutify" />
       <section
         id="hero"
@@ -19,20 +21,14 @@ const index = () => {
             <h1 className="mb-8 text-7xl lg:text-8xl xl:text-9xl">
               Every Board Has A Story
             </h1>
-            <p className="text-lg">
+            <p className="mb-8 text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
               delectus accusantium officiis expedita, deleniti ullam!
             </p>
-            <div className="mt-8 flex flex-col justify-center md:flex-row">
-              <button className="mr-8 mb-4 w-full rounded-bl-lg rounded-tr-lg border-2 border-primary bg-primary px-16 py-4 text-center text-[18px] font-bold tracking-[0.3em] transition-all duration-300 hover:border-white hover:bg-neutral-700 hover:text-primary md:mb-0 md:w-1/3 md:px-4 xl:w-1/2">
-                CUSTOMISE
-              </button>
-              <button className="w-full rounded-bl-lg rounded-tr-lg border-2 px-16 py-4 text-center text-[18px] font-bold tracking-[0.3em] transition-all duration-300 hover:bg-neutral-700 hover:text-primary md:w-1/3 md:px-4 xl:w-1/2">
-                PREMADE
-              </button>
-            </div>
+            <CTAButtons />
           </div>
           <Image
+            priority
             src="/boards/board1.png"
             alt="board"
             width={826}
@@ -63,17 +59,10 @@ const index = () => {
           </div>
         )}
       </section>
-      <section className="flex flex-col items-center justify-center">
-        <div className="mx-auto mt-8 flex flex-col md:mx-0 md:flex-row">
-          <button className="mr-8 mb-4 w-full rounded-bl-lg rounded-tr-lg border-2 border-primary bg-primary px-16 py-4 text-center text-[18px] font-bold tracking-[0.3em] transition-all duration-300 hover:border-white hover:bg-neutral-700 hover:text-primary md:mb-0 md:w-1/2">
-            CUSTOMISE
-          </button>
-          <button className="w-full rounded-bl-lg rounded-tr-lg border-2 px-16 py-4 text-center text-[18px] font-bold tracking-[0.3em] transition-all duration-300 hover:bg-neutral-700 hover:text-primary md:w-1/2">
-            PREMADE
-          </button>
-        </div>
+      <section className="container mt-8 flex w-full flex-col items-center justify-center px-8 xl:w-1/2">
+        <CTAButtons />
       </section>
-      <main className="container mx-auto flex flex-1 flex-col px-8">
+      <main className="container mx-auto mb-36 flex flex-1 flex-col items-center px-8">
         <FeaturedBar />
         <div>
           {instructions.map((instruction, i) => {
@@ -100,7 +89,11 @@ const index = () => {
             VISUALISE YOUR CUSTOM CREATION
           </h1>
         </div>
+        <section className="container mt-16 flex w-full flex-col items-center justify-center xl:w-1/2">
+          <CTAButtons />
+        </section>
       </main>
+      <Footer />
     </div>
   );
 };
