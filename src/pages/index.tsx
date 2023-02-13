@@ -29,7 +29,7 @@ const index = () => {
           </div>
           <Image
             priority
-            src="/boards/board1.png"
+            src="/premade_boards/board1.png"
             alt="board"
             width={826}
             height={641}
