@@ -1,0 +1,22 @@
+{
+    "meat": [
+        {
+            "name": "Prosciutto",
+            "imageSrc": "/prosciutto.png",
+            "width": 360,
+            "height": 300
+        },
+        {
+            "name": "Genoa Salami",
+            "imageSrc": "/meats/Genoa_Salami.png",
+            "width": 360,
+            "height": 300
+        },
+        {
+            "name": "Mortadella",
+            "imageSrc": "/meats/Mortadella.png",
+            "width": 360,
+            "height": 300
+        }
+    ]
+}

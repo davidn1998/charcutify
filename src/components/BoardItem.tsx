@@ -1,20 +1,19 @@
+import { IBoardItem } from "@/types";
 import { animated, useSpring } from "@react-spring/web";
 import { useGesture } from "@use-gesture/react";
 import { RefObject } from "react";
 
-type Props = {
+interface IProps extends IBoardItem {
   board: RefObject<HTMLDivElement>;
-  imageSrc: string;
-  width: number;
-  height: number;
-};
+}
 
-export const BoardItem = ({ board, imageSrc, width, height }: Props) => {
+export const BoardItem = ({ board, imageSrc, width, height }: IProps) => {
   const [style, api] = useSpring(() => ({
     x: 0,
     y: 0,
     background: `url(${imageSrc})`,
-    backgroundSize: "cover",
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
     width: width,
     height: height,
     cursor: "grab",

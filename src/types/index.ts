@@ -6,4 +6,11 @@ interface ICarouselItem {
   imgH: number;
 }
 
-export type { ICarouselItem };
+interface IBoardItem {
+  name: string;
+  imageSrc: string;
+  width: number;
+  height: number;
+}
+
+export type { ICarouselItem, IBoardItem };
