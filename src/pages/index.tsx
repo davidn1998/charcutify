@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div className="flex flex-1 flex-col items-center">
+    <div className="flex flex-1 flex-col">
       <Meta title="Charcutify" />
       <section
         id="hero"
@@ -58,9 +58,6 @@ const index = () => {
             <Carousel carouselItems={boards} displayNumber={5} offsetInit={2} />
           </div>
         )}
-      </section>
-      <section className="container mt-8 flex w-full flex-col items-center justify-center px-8 xl:w-1/2">
-        <CTAButtons />
       </section>
       <main className="container mx-auto mb-36 flex flex-1 flex-col items-center px-8">
         <FeaturedBar />
