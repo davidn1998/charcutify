@@ -1,7 +1,9 @@
 import boards from "@/boards.json";
 import { Carousel } from "@/components/Carousel";
 import { FeaturedBar } from "@/components/FeaturedBar";
+import { InstructionStep } from "@/components/InstructionStep";
 import { Meta } from "@/components/Meta";
+import instructions from "@/instructions.json";
 import Image from "next/image";
 
 const index = () => {
@@ -73,6 +75,31 @@ const index = () => {
       </section>
       <main className="container mx-auto flex flex-1 flex-col px-8">
         <FeaturedBar />
+        <div>
+          {instructions.map((instruction, i) => {
+            return (
+              <InstructionStep
+                key={i}
+                step={instruction.step}
+                title={instruction.title}
+                desc={instruction.desc}
+                images={instruction.images}
+                reverse={i % 2 !== 0}
+              />
+            );
+          })}
+        </div>
+        <div className="relative mx-auto flex items-center justify-center">
+          <Image
+            src="/final_board.png"
+            alt="final_board"
+            width={993}
+            height={774}
+          />
+          <h1 className="absolute text-center text-4xl font-bold leading-normal tracking-widest opacity-60 sm:text-6xl md:text-7xl lg:text-8xl">
+            VISUALISE YOUR CUSTOM CREATION
+          </h1>
+        </div>
       </main>
     </div>
   );

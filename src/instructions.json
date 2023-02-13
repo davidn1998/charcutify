@@ -1,0 +1,110 @@
+[
+    {
+        "step": "01",
+        "title": "Choose Your Meats",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "images": [
+            {
+                "src": "/meats/prosciutto.png",
+                "width": 230,
+                "height": 220
+            },
+            {
+                "src": "/meats/Soppressata.png",
+                "width": 200,
+                "height": 192
+            },
+            {
+                "src": "/meats/Genoa_Salami.png",
+                "width": 201,
+                "height": 193
+            },
+            {
+                "src": "/meats/Mortadella.png",
+                "width": 200,
+                "height": 190
+            }
+        ]
+    },
+    {
+        "step": "02",
+        "title": "Choose Your Cheese",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "images": [
+            {
+                "src": "/cheese/Brie.png",
+                "width": 201,
+                "height": 181
+            },
+            {
+                "src": "/cheese/Manchego.png",
+                "width": 184,
+                "height": 239
+            },
+            {
+                "src": "/cheese/Goat_Cheese.png",
+                "width": 202,
+                "height": 167
+            },
+            {
+                "src": "/cheese/Gorgonzola.png",
+                "width": 206,
+                "height": 201
+            }
+        ]
+    },
+    {
+        "step": "03",
+        "title": "Choose Your Starch",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "images": [
+            {
+                "src": "/starch/Crostinis.png",
+                "width": 281,
+                "height": 281
+            },
+            {
+                "src": "/starch/Breadsticks.png",
+                "width": 221,
+                "height": 162
+            },
+            {
+                "src": "/starch/Crackers.png",
+                "width": 204,
+                "height": 128
+            },
+            {
+                "src": "/starch/Pretzels.png",
+                "width": 135,
+                "height": 145
+            }
+        ]
+    },
+    {
+        "step": "04",
+        "title": "Choose Your Produce",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "images": [
+            {
+                "src": "/produce/Grapes.png",
+                "width": 194,
+                "height": 176
+            },
+            {
+                "src": "/produce/Apples.png",
+                "width": 204,
+                "height": 204
+            },
+            {
+                "src": "/produce/Dates.png",
+                "width": 198,
+                "height": 198
+            },
+            {
+                "src": "/produce/Berries.png",
+                "width": 279,
+                "height": 124
+            }
+        ]
+    }
+]
