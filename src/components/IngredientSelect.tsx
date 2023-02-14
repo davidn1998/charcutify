@@ -1,19 +1,16 @@
-import { IBoardItem } from "@/types";
+import { IBoardItem, IIngredient } from "@/types";
 import { Combobox } from "@headlessui/react";
 import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 interface IProps {
-  ingredients: IBoardItem[];
-  generateBoardItem: (item: IBoardItem) => void;
+  ingredients: IIngredient[];
+  addBoardItem: (item: IIngredient) => void;
 }
 
-export const IngredientSelect = ({
-  ingredients,
-  generateBoardItem,
-}: IProps) => {
-  const [selectedIngredient, setSelectedIngredient] = useState<IBoardItem>(
+export const IngredientSelect = ({ ingredients, addBoardItem }: IProps) => {
+  const [selectedIngredient, setSelectedIngredient] = useState<IIngredient>(
     ingredients[0]
   );
   const [query, setQuery] = useState("");
@@ -28,7 +25,7 @@ export const IngredientSelect = ({
     <Combobox value={selectedIngredient} onChange={setSelectedIngredient}>
       <div className="flex flex-col">
         <div className="flex">
-          <div className="flex justify-between border-2 bg-transparent p-4">
+          <div className="flex w-2/3 justify-between border-2 bg-transparent p-4">
             <Combobox.Input
               onChange={(event) => setQuery(event.target.value)}
               displayValue={(ingredient: IBoardItem) => ingredient.name}
@@ -39,10 +36,10 @@ export const IngredientSelect = ({
             </Combobox.Button>
           </div>
           <button
-            onClick={() => generateBoardItem(selectedIngredient)}
-            className="border-2 border-l-0 p-2 transition-all hover:bg-primary"
+            onClick={() => addBoardItem(selectedIngredient)}
+            className="w-1/3 border-2 border-l-0 p-2 transition-all hover:bg-primary"
           >
-            Generate
+            Add
           </button>
         </div>
         <Combobox.Options className="mt-2 border-2 bg-transparent transition-all">

@@ -22,6 +22,6 @@ export const Meta = ({ title, keywords, description }: Props) => {
 Meta.defaultProps = {
   title: "Charcutify",
   keywords:
-    "charcutify, charcuterie, board, meat, cheese, custom, food, online, visualiser, visualizer",
+    "charcutify, charcuterie, board, meat, cheese, custom, food, online, visualiser, visualizer, maker, creator",
   description: "An app to create and visualise custom charcuterie boards.",
 };
