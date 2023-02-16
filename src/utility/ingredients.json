@@ -71,18 +71,60 @@
     ],
     "starch": [
         {
-            "name": "Starch 1",
-            "imageSrc": "/instructions/starch/Pretzels.png",
-            "width": 400,
-            "height": 380
+            "name": "Crostini",
+            "imageSrc": "/boardItems/starch/crostini.png",
+            "width": 200,
+            "height": 150
+        },
+        {
+            "name": "Pretzel",
+            "imageSrc": "/boardItems/starch/pretzel.png",
+            "width": 150,
+            "height": 100
+        },
+        {
+            "name": "Cracker",
+            "imageSrc": "/boardItems/starch/cracker.png",
+            "width": 101,
+            "height": 104
+        },
+        {
+            "name": "Breadstick",
+            "imageSrc": "/boardItems/starch/breadstick.png",
+            "width": 500,
+            "height": 30
         }
     ],
     "produce": [
         {
-            "name": "Produce 1",
-            "imageSrc": "/instructions/produce/Grapes.png",
+            "name": "Red Grape Bunch",
+            "imageSrc": "/boardItems/produce/red_grape_bunch.png",
+            "width": 300,
+            "height": 280
+        },
+        {
+            "name": "Green Grape Bunch",
+            "imageSrc": "/boardItems/produce/green_grape_bunch.png",
             "width": 400,
             "height": 380
+        },
+        {
+            "name": "Apple Slice",
+            "imageSrc": "/boardItems/produce/green_apple_slice.png",
+            "width": 280,
+            "height": 144
+        },
+        {
+            "name": "Orange Slice",
+            "imageSrc": "/boardItems/produce/orange_slice.png",
+            "width": 250,
+            "height": 250
+        },
+        {
+            "name": "Strawberry",
+            "imageSrc": "/boardItems/produce/strawberry.png",
+            "width": 160,
+            "height": 191
         }
     ]
 }
