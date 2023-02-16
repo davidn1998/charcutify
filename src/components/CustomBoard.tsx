@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 import { FaTrash } from "react-icons/fa";
 import { BoardItem } from "./BoardItem";
+import { IngredientList } from "./IngredientList";
 import { IngredientSelect } from "./IngredientSelect";
 
 export const CustomBoard = () => {
@@ -34,17 +35,7 @@ export const CustomBoard = () => {
       className="relative flex w-full items-start justify-center"
       ref={board}
     >
-      <div className="flex h-full w-full flex-col items-center border-2">
-        <h2 className=" w-full border-b-2 p-2 text-center text-3xl">
-          Current Ingredients
-        </h2>
-        <ul className="p-4">
-          {boardItems.length === 0 && <p>No Items Added</p>}
-          {boardItems.map((item, i) => {
-            return <li key={i}>{item.name}</li>;
-          })}
-        </ul>
-      </div>
+      <IngredientList boardItems={boardItems} />
       <Image
         src="/boards/valentines.png"
         alt="valentines board"
