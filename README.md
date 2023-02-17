@@ -1,6 +1,6 @@
 charcutify.com 
 
-A custom charcuterie creator and visualiser created with [Next.js](https://nextjs.org/) & [TailwindCSS](https://tailwindcss.com) and deployed with [Netlify](https://netlify.com).
+A custom charcuterie board creator and visualiser created with [Next.js](https://nextjs.org/) & [TailwindCSS](https://tailwindcss.com) and deployed with [Netlify](https://netlify.com).
 
 <!-- ## Explore online
 
