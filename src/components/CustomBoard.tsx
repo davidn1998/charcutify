@@ -32,7 +32,7 @@ export const CustomBoard = () => {
 
   return (
     <div
-      className="relative flex w-full items-start justify-center"
+      className="relative flex w-full select-none items-start justify-center"
       ref={board}
     >
       <IngredientList boardItems={boardItems} />
