@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
 type Props = {};
 
 export const Footer = (props: Props) => {
@@ -23,9 +22,6 @@ export const Footer = (props: Props) => {
             <Link href="/">Home</Link>
           </li>
           <li className="mb-1 font-light transition-all hover:text-neutral-400">
-            <Link href="/about">About</Link>
-          </li>
-          <li className="mb-1 font-light transition-all hover:text-neutral-400">
             <Link href="/customise">Customise</Link>
           </li>
           <li className="mb-1 font-light transition-all hover:text-neutral-400">
@@ -39,20 +35,6 @@ export const Footer = (props: Props) => {
           <li className="mb-1 font-light transition-all hover:text-neutral-400">
             <Link href="/api/boards" target="_blank">
               API
-            </Link>
-          </li>
-        </ul>
-      </div>
-      <div className="flex flex-col">
-        <h4 className="mb-4 text-xl">contact</h4>
-        <ul>
-          <li className="mb-4 font-light">help@charcutify.com</li>
-          <li className="mb-1 flex justify-between text-3xl font-light">
-            <Link href="https://twitter.com" target="_blank">
-              <FaTwitter />
-            </Link>
-            <Link href="https://instagram.com" target="_blank">
-              <FaInstagram />
             </Link>
           </li>
         </ul>

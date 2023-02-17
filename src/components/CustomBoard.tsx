@@ -59,7 +59,7 @@ export const CustomBoard = () => {
           />
         );
       })}
-      <div className="flex w-full flex-col content-end">
+      <div className="flex w-1/6 flex-col content-end">
         <h3 className="mb-4 text-xl text-primary">Meat Select</h3>
         <IngredientSelect
           ingredients={ingredients.meat}

@@ -22,8 +22,8 @@ const index = () => {
               Every Board Has A Story
             </h1>
             <p className="mb-8 text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-              delectus accusantium officiis expedita, deleniti ullam!
+              Find the perfect premade board for you or customise your own with
+              our online customisation and visualisation tool.
             </p>
             <CTAButtons />
           </div>

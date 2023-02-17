@@ -15,9 +15,9 @@ export const IngredientList = ({ boardItems }: Props) => {
   );
 
   return (
-    <div className="flex h-full w-full flex-col items-center border-2">
+    <div className="flex h-full w-1/6 flex-col items-center border-2">
       <h2 className=" w-full border-b-2 p-2 text-center text-3xl">
-        Current Ingredients
+        Ingredients
       </h2>
       <ul className="p-4">
         {ingredientCountMap.size === 0 && <p>No Items Added</p>}

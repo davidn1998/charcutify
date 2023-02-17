@@ -2,7 +2,7 @@
     {
         "step": "01",
         "title": "Choose Your Meats",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "desc": "Well cured meats are essential to any charcuterie board. High in protein, rich in nutrients, flavourful, satisfying and highly versatile. It's hard to go wrong with any meat you choose to add.",
         "images": [
             {
                 "src": "/instructions/meats/prosciutto.png",
@@ -29,7 +29,7 @@
     {
         "step": "02",
         "title": "Choose Your Cheese",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "desc": "Cheese is known for its sharp, tangy, or nutty taste that can add a delicious depth of flavor to any dish. Much like the meats, cheese has high versatility coming in many different types and textures, such as shredded, grated, sliced, or melted.",
         "images": [
             {
                 "src": "/instructions/cheese/Brie.png",
@@ -56,7 +56,7 @@
     {
         "step": "03",
         "title": "Choose Your Starch",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "desc": "Whether it's the crunch of a cracker, snap of a breadstick or soft warmth of toasted bread, there's no end to the options of starches on a board. Ranging from plain to savory, or salty to sweet, there will be something for everyone. Don't skip adding this convenient and cost-effective ingredient to your board.",
         "images": [
             {
                 "src": "/instructions/starch/Crostinis.png",
@@ -83,7 +83,7 @@
     {
         "step": "04",
         "title": "Choose Your Produce",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore impedit reiciendis architecto debitis, numquam nihil eveniet amet. Nulla libero perferendis cum eveniet veritatis. Vero molestiae voluptates culpa libero ratione aspernatur!",
+        "desc": "Fruits and vegetables add a refreshing and contrasting flavor and texture to the savory meats, cheeses, and crackers on the board. They can also add pops of color and vibrancy to the presentation of the board adding to the aesthetics and visual appeal.",
         "images": [
             {
                 "src": "/instructions/produce/Grapes.png",
