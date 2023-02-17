@@ -1,10 +1,12 @@
 import { CustomBoard } from "@/components/CustomBoard";
+import { Meta } from "@/components/Meta";
 import Image from "next/image";
 import Link from "next/link";
 
 const customise = () => {
   return (
-    <main className="mx-auto flex flex-1 flex-col items-center px-8">
+    <main className="mx-auto mt-32 flex flex-1 flex-col items-center px-8">
+      <Meta title="Charcutify - Customise" />
       <div className="2xl:hidden">
         <h1 className="mb-16 text-4xl">
           The customisation tool is unavailable at your current screen size.

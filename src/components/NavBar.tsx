@@ -12,7 +12,7 @@ export const NavBar = ({}) => {
   const navLinksRight: NavLink[] = [{ label: "premade", path: "/boards" }];
 
   return (
-    <nav className="mb-32 mt-6 flex h-24 items-center justify-center text-xl tracking-widest">
+    <nav className="mt-6 flex h-24 items-center justify-center text-xl tracking-widest">
       <ul className="flex w-1/2 list-none flex-col items-center lg:hidden">
         <Link href="/" className="mx-8 mb-4">
           <Image

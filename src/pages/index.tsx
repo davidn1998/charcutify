@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="mt-32 flex flex-1 flex-col">
       <Meta title="Charcutify" />
       <section
         id="hero"
